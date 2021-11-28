@@ -6,7 +6,7 @@ public class Player {
 
     public void CheckAnswer(){
         if ( Input == CorrectAnswer){
-            score ++;
+            score ++; // test
         }
     }
 }
