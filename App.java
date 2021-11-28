@@ -33,7 +33,7 @@ public class App {
         String input9 = questions.nextLine();
 
         System.out.println("Question 10: Who is numba won enemy?");
-        String input10 = questions.nextLine();
+        String input10 = questions.nextLine(); //test fnny
     }
 }
 
