@@ -57,7 +57,7 @@ public class App {
             System.out.println("Please type 1, 2, 3 or 4");
             inputs[9] = questions.nextLine(); 
 
-            System.out.println("You scored: " + Player.CheckAnswer(inputs) + "/10");
+            System.out.println("You scored: " + AnswerChecker.CheckAnswer(inputs) + "/10");
             System.out.println("Try Again?");
         } while (questions.nextLine() == "Yes");
 
