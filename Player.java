@@ -1,8 +1,7 @@
 public class Player {
 
-    int score;  
-    String input;
-    public void CheckAnswer(){
+    public static void CheckAnswer(){
+        int score;  
         if ( input1 == "False"){
             score ++;
             
