@@ -2,14 +2,18 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Scanner questions = new Scanner(System.in);
-        String[] inputs = new String[10];
+        boolean retry;
+
+        System.out.println("Welcome to the social credit score test"); 
+        System.out.println("there will be 10 questions, are you ready?");
 
         do {
-            System.out.println("Welcome to the social credit score test"); 
-            System.out.println("there will be 10 questions, are you ready?");
-            System.out.println("Question 1: True or false, Taiwan a country?");
+            Scanner questions = new Scanner(System.in);
+            String[] inputs = new String[10];
+            
+            System.out.println("Question 1: True or False, Taiwan a country?");
             inputs[0] = questions.nextLine();
+            System.out.println(inputs[0]);
 
             System.out.println("Question 2:What happened at tiananmen square?");
             System.out.println("options are  : 1)Nothing   2)Protesting 3)tank man ");
@@ -58,10 +62,9 @@ public class App {
             inputs[9] = questions.nextLine(); 
 
             System.out.println("You scored: " + AnswerChecker.CheckAnswer(inputs) + "/10");
-            System.out.println("Try Again?");
-        } while (questions.nextLine() == "Yes");
-
-        questions.close();
+            System.out.println("Try Again? (Type 'Yes' to try again)");
+            retry = questions.nextLine().equals("Yes") ? true : false;
+        } while (retry);
     }
 }
 
