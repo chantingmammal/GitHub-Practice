@@ -1,57 +1,58 @@
 public class Player {
 
-    public static int CheckAnswer(){
-        int score;  
-        if ( input1 == "False"){
+    public static int CheckAnswer(String[] inputs){
+        int score = 0;
+
+        if ( inputs[0] == "False"){
+            score ++;
+
+        }
+
+        if ( inputs[1] == "1"){
+            score ++;
+            
+
+        }
+        if ( inputs[2] == "3"){
             score ++;
             
         }
 
-        if ( input2 == "1"){
-            score ++;
-            
-
-        }
-        if ( input3 == "3"){
+        if ( inputs[3] == "2"){
             score ++;
             
         }
 
-        if ( input4 == "2"){
+        if ( inputs[4] == "2"){
             score ++;
             
         }
 
-        if ( input5 == "2"){
+        if ( inputs[5] == "1"){
             score ++;
             
         }
 
-        if ( input6 == "1"){
-            score ++;
-            
-        }
-
-        if ( input7 == "2"){
+        if ( inputs[6] == "2"){
             score ++;
             
         }
         
-        if ( input8 == "1"){
+        if ( inputs[7] == "1"){
             score ++;
             
-        } else if (input8 == "2"){
+        } else if (inputs[7] == "2"){
             score++;
-        }else if (input8 == "3"){
-            score++
+        }else if (inputs[7] == "3"){
+            score++;
         }
 
-        if ( input9 == "1"){
+        if ( inputs[8] == "1"){
             score ++;
             
         }
 
-        if ( input10 == "3"){
+        if ( inputs[9] == "3"){
             score ++;
             
         }
