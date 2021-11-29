@@ -7,22 +7,22 @@ public class Player {
             
         }
 
-        if ( input2 == "Nothing"){
+        if ( input2 == "1"){
             score ++;
             
 
         }
-        if ( input3 == "Xi Jinping"){
+        if ( input3 == "3"){
             score ++;
             
         }
 
-        if ( input4 == "No"){
+        if ( input4 == "2"){
             score ++;
             
         }
 
-        if ( input5 == "CHINA"){
+        if ( input5 == "2"){
             score ++;
             
         }
@@ -32,26 +32,26 @@ public class Player {
             
         }
 
-        if ( input7 == "communist"){
+        if ( input7 == "2"){
             score ++;
             
         }
         
-        if ( input8 == "what are you talking about?"){
+        if ( input8 == "1"){
             score ++;
             
-        } else if (input8 == "idk"){
+        } else if (input8 == "2"){
             score++;
-        }else if (input8 == "wut"){
+        }else if (input8 == "3"){
             score++
         }
 
-        if ( input9 == "nothing"){
+        if ( input9 == "1"){
             score ++;
             
         }
 
-        if ( input10 == "Donald Trump"){
+        if ( input10 == "3"){
             score ++;
             
         }
