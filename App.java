@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // This is a test
-        System.out.println("Welcome to the social credit score test"); //Funny comment
+        System.out.println("Welcome to the social credit score test"); 
         System.out.println("there will be 10 questions, are you ready?");
         System.out.println("Question 1: True or false, Is Taiwan a country?");
         
@@ -54,7 +53,7 @@ public class App {
         System.out.println("Question 10: Who is numba won enemy?");
         System.out.println("1)simps  2)youtube ads 3)Donald Trump 4)Johnny Depp");
         
-        String input10 = questions.nextLine(); //test fnny
+        String input10 = questions.nextLine(); 
     }
 }
 
