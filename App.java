@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome to the social credit score test"); 
         System.out.println("there will be 10 questions, are you ready?");
-        System.out.println("Question 1: True or false, Is Taiwan a country?");
+        System.out.println("Question 1: True or false, Taiwan a country?");
         
         Scanner questions = new Scanner(System.in);
         String input1 = questions.nextLine();
@@ -54,6 +54,9 @@ public class App {
         System.out.println("1)simps  2)youtube ads 3)Donald Trump 4)Johnny Depp");
         
         String input10 = questions.nextLine(); 
+
+        Player.CheckAnswer();
+        
     }
 }
 

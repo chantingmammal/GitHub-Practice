@@ -1,12 +1,59 @@
 public class Player {
 
-    int score;  
-    int Input;
-    int CorrectAnswer;
+    public static void CheckAnswer(){
+        int score;  
+        if ( input1 == "False"){
+            score ++;
+            
+        }
 
-    public void CheckAnswer(){
-        if ( Input == CorrectAnswer){
-            score ++; // test
+        if ( input2 == "1"){
+            score ++;
+            
+
+        }
+        if ( input3 == "3"){
+            score ++;
+            
+        }
+
+        if ( input4 == "2"){
+            score ++;
+            
+        }
+
+        if ( input5 == "2"){
+            score ++;
+            
+        }
+
+        if ( input6 == "1"){
+            score ++;
+            
+        }
+
+        if ( input7 == "2"){
+            score ++;
+            
+        }
+        
+        if ( input8 == "1"){
+            score ++;
+            
+        } else if (input8 == "2"){
+            score++;
+        }else if (input8 == "3"){
+            score++
+        }
+
+        if ( input9 == "1"){
+            score ++;
+            
+        }
+
+        if ( input10 == "3"){
+            score ++;
+            
         }
     }
 }
