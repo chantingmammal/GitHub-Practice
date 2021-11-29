@@ -1,6 +1,6 @@
 public class Player {
 
-    public static void CheckAnswer(){
+    public static int CheckAnswer(){
         int score;  
         if ( input1 == "False"){
             score ++;
@@ -55,6 +55,8 @@ public class Player {
             score ++;
             
         }
+
+        return score;
     }
 }
 
