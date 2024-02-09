@@ -4,14 +4,14 @@ public class App {
     public static void main(String[] args) throws Exception {
         boolean retry;
 
-        System.out.println("Welcome to the social credit score test"); 
+        System.out.println("Welcome to the Yoko Ono test"); 
         System.out.println("there will be 10 questions, are you ready?");
 
         do {
             Scanner questions = new Scanner(System.in);
             String[] inputs = new String[10];
             
-            System.out.println("Question 1: True or False, Taiwan a country?");
+            System.out.println("Question 1: True or False, Is John Lennon still dead?");
             inputs[0] = questions.nextLine();
             System.out.println(inputs[0]);
 
