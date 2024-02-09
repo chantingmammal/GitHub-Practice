@@ -1,6 +1,6 @@
-# GitHub-Practice
-## Take the Social Credit Test!
-###### Endorsed by the CCP and our glorious leader Xi Jinping
+# Yoko Ono Quiz
+## Take the Yoko Ono Test!
+###### Endorsed by Yoko Ono
 
-Find out your Social Credit Score with just 10 Questions! 
-Can you beat **John Xina** :thinking:?
+Find out "how you know Ono well" Score with just 10 Questions! 
+Can you beat **ALLEN KLEIN** :thinking:?
