@@ -15,7 +15,7 @@ public class App {
             inputs[0] = questions.nextLine();
             System.out.println(inputs[0]);
 
-            System.out.println("Question 2:Who wrote "Voice Piece for Soprano"?");
+            System.out.println("Question 2:Who wrote Voice Piece for Soprano?");
             System.out.println("options are  : 1)Yoko Ono 2)Donald Trump 3)Nathan Amaya ");
             System.out.println("Please type 1, 2 or 3");
             inputs[1] = questions.nextLine();
