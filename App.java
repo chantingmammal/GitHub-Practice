@@ -35,35 +35,35 @@ public class App {
             System.out.println("Please type 1 or 2");
             inputs[4] = questions.nextLine();
 // Rest of Questions need to be finished
-            System.out.println("Question 6: what is the best number of kids to have?");
-            System.out.println("Options are : 1)1 2)4  3)69 4)420");
+            System.out.println("Question 6: Who Killed John Lennon?");
+            System.out.println("Options are : 1)Mark David Chapman 2)Mal Evans  3)Lucas Aiello 4)Vincent Anzelmo");
             System.out.println("Please type 1, 2, 3 or 4");
             inputs[5] = questions.nextLine();
 
-            System.out.println("Question 7:Is china a capitalist or communist? ");
-            System.out.println("option are : 1)capitalist 2)communist");
+            System.out.println("Question 7:When Did Yoko Ono divorced Tony Cox? ");
+            System.out.println("option are : 1)1969 2)1970");
             System.out.println("Please type 1 or 2");
             inputs[6] = questions.nextLine();
 
-            System.out.println("Question 8 :Who is tank man?");
-            System.out.println("options are : 1)what are you talking about? 2)idk 3)wut 4)a protester");
+            System.out.println("Question 8 :Who is Sean Ono Lennon?");
+            System.out.println("options are : 1)Musician 2)Beatle's Son 3)IDK 4)Just a Man");
             System.out.println("Please type 1, 2, 3 or 4");
             inputs[7] = questions.nextLine();
             
 
-            System.out.println("Question 9: What is better than china?");
-            System.out.println("options are : 1)nothing 2)women  3)money  4)Jeff Bezos");
+            System.out.println("Question 9: What is better than Apple Corps?");
+            System.out.println("options are : 1)Yoko Ono 2)Ono  3)ONO  4)YOKO ONO");
             System.out.println("Please type 1, 2, 3 or 4");
             inputs[8] = questions.nextLine();
 
             System.out.println("Question 10: Who is numba won enemy?");
-            System.out.println("1)simps  2)youtube ads 3)Donald Trump 4)Johnny Depp");
+            System.out.println("1)Paul  2)George 3)Richie Snare 4)Pete Best");
             System.out.println("Please type 1, 2, 3 or 4");
             inputs[9] = questions.nextLine(); 
 
             System.out.println("You scored: " + AnswerChecker.CheckAnswer(inputs) + "/10");
-            System.out.println("Try Again? (Type 'Yes' to try again)");
-            retry = questions.nextLine().equals("Yes") ? true : false;
+            System.out.println("Try Again? (Type 'Yaya' to try again and scream)");
+            retry = questions.nextLine().equals("Yaya") ? true : false;
         } while (retry);
     }
 }

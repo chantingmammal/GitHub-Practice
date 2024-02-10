@@ -27,7 +27,7 @@ public class AnswerChecker {
             score++;
         }
 
-        if (inputs[6].equals("2")) {
+        if (inputs[6].equals("1")) {
             score++;
         }
 
@@ -35,15 +35,13 @@ public class AnswerChecker {
             score++;
         } else if (inputs[7].equals("2")) {
             score++;
-        } else if (inputs[7].equals("3")) {
-            score++;
         }
 
         if (inputs[8].equals("1")) {
             score++;
         }
 
-        if (inputs[9].equals("3")) {
+        if (inputs[9].equals("4")) {
             score++;
         }
 
